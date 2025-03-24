@@ -1,0 +1,10 @@
+ffmpeg-python
+moviepy
+faster-whisper
+transformers
+sentencepiece
+torch
+torchvision
+torchaudio
+gtts
+pydub
