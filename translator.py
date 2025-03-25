@@ -24,8 +24,8 @@ def translate_text(text, model_name="Helsinki-NLP/opus-mt-zh-id"):
     """
     try:
         # Load tokenizer and model
-        tokenizer = MarianTokenizer.from_pretrained(model_name)
-        model = MarianMTModel.from_pretrained(model_name)
+tokenizer = MarianTokenizer.from_pretrained(model_name, force_download=True)
+model = MarianMTModel.from_pretrained(model_name, force_download=True)
         
         # Tokenize and translate
         inputs = tokenizer(text, return_tensors="pt", padding=True)
