@@ -3,8 +3,7 @@ moviepy
 faster-whisper
 transformers
 sentencepiece
+gTTS
 torch
 torchvision
 torchaudio
-gtts
-pydub
