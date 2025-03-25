@@ -1,5 +1,22 @@
-.venv/
+output/
+dubbing_output/
+audio/
+transcript/
+translation/
+speech/
+validation/
 __pycache__/
-*.pyc
-.DS_Store
-dubbing_output/  # Atau direktori output lainnya
+
+*.wav
+*.mp3
+*.json
+*.log
+*.tmp
+*.pkl
+
+*.env
+secrets.txt
+
+/kaggle/working/*
+!.git/
+!README.md
